@@ -5,7 +5,7 @@ from fastapi import HTTPException
 from model import CreateNote, ReadNoteById, GetNoteTimeInfo, UpdateNoteText, PrintNoteId, DeleteNoteById
 
 api_router = fastapi.APIRouter()
-local_path = "D:\\CODE\\Python\\IVOLab4\\"
+local_path = "D:\\CODE\\Python\\IVOLab5\\"
 
 path = local_path + "notes\\"
 token_path = local_path + "token1.txt"
